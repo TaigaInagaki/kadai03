@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creare</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="top">
+
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="top-wrapper">
+        <nav class="navigation">
+          <h1 class="logo">Creare</h1>
+          <ul>
+            <li><a href="#search">ホストを探す</a></li>
+            <li><a href="#popular">おすすめホスト</a></li>
+            <li><a href="#example">利用者の声</a></li>
+            <li><a href="#start">新規登録</a></li>
+            <li><a href="#about">Creareについて</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- メインビジュアル -->
+  <section class="visual-wrapper">
+    <div class="container">
+      <div class="visual-title">
+        <h1>あなたに合うホストを見つけよう。</h1>
+        <h2>Creare（クリアーレ）は、ホストファミリーの検索サイトです。</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ホストを探す -->
+  <section id="search" class="search-wrapper">
+    <div class="container">
+      <div class="search-content">
+
+        <h2>ホストを探す</h2>
+        <div class="search-item">
+          <!-- 行き先 -->
+          <input class="search-parts" name="location" placeholder="Where do you want to go?" type="text"
+            id="search-location">
+
+          <!-- チェックイン日 -->
+          <input class="search-parts" name="check_in" type="date" placeholder="Check In" id="search_check_in">
+
+          <!-- チェックアウト日 -->
+          <input class="search-parts" name="check_out" placeholder="Check Out" type="date" id="search_check_out">
+
+          <!-- 性別 -->
+          <div class="search-sex">
+            <p>性別</p>
+            <div class="cp_ipselect cp_sl01 cp_top">
+              <select name="select_sex" id="select_sex">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- 年齢 -->
+          <div class="search-age">
+            <p>年齢</p>
+            <div class="cp_ipselect cp_sl01 cp_top">
+              <select name="select_age" id="select_age"></select>
+            </div>
+          </div>
+
+          <!-- 人数 -->
+          <div class="search-num">
+            <p>人数</p>
+            <div class="cp_ipselect cp_sl01">
+              <select name="select_num" id="select_num">
+                <option value="1人">1</option>
+                <option value="2人">2</option>
+                <option value="3人">3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 検索 -->
+        <button onclick="location.href='searchhost.html'" class="search-btn" id="search_btn">search</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="popular" class="popular-wrapper">
+    <div class="container">
+    </div>
+  </section>
+
+  <section id="example" class="example-wrapper">
+    <div class="container">
+
+    </div>
+  </section>
+
+  <section id="start" class="start-wrapper">
+    <div class="container">
+
+    </div>
+  </section>
+
+  <footer id="about">
+    <div class="container">
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.0/dayjs.min.js"
+    integrity="sha512-KTFpdbCb05CY4l242bLjyaPhoL9vAy4erP1Wkn7Rji0AG6jx6zzGtKkdHc7jUOYOVSmbMbTg728u260CA/Qugg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="text.js"></script>
+
+</body>
+
+</html>

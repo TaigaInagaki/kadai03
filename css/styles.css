@@ -1,0 +1,189 @@
+.container {
+  width: 1300px;
+  text-align: center;
+  margin: auto;
+}
+
+/* ヘッダー */
+header {
+  background-color: #DCC2FF;
+  position: sticky;
+  top: 0;
+}
+
+.navigation {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+}
+
+.navigation h1 {
+  line-height: 50px;
+  font-size: 35px;
+  color: white;
+  padding-left: 30px;
+}
+
+.navigation ul {
+  display: flex;
+  margin-left: auto;
+  line-height: 50px;
+}
+
+.navigation li {
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+/* メインビジュアル */
+.visual-wrapper {
+  background-color: #DCC2FF;
+}
+
+.visual-title {
+  padding-top: 230px;
+  font-size: 44px;
+  line-height: 2;
+  height: 450px;
+}
+
+.visual-title h1 {
+  color: #000055;
+}
+
+.visual-title h2 {
+  color: #000055;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* ホストを探す */
+.search-wrapper {
+  height: 400px;
+}
+
+.search-content {
+  padding-top: 50px;
+}
+
+.search-content h2 {
+  font-size: 30px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.search-parts {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  width: 50%;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+::placeholder {
+  color: #DDDDDD;
+}
+
+.cp_ipselect {
+  overflow: hidden;
+  width: 250px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.cp_ipselect select {
+  width: 100%;
+  padding-right: 1em;
+  cursor: pointer;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.cp_ipselect select::-ms-expand {
+  display: none;
+}
+
+.cp_ipselect.cp_sl01 {
+  position: relative;
+  border-radius: 2px;
+  border: 2px solid #EEEEEE;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.cp_ipselect.cp_sl01::before {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #666666;
+  pointer-events: none;
+}
+
+.cp_ipselect.cp_sl01 select {
+  padding: 8px 38px 8px 8px;
+  color: black;
+}
+
+.cp_top {
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  border-radius: 20px;
+  padding: 20px 100px;
+  font-size: 20px;
+  border: #EEEEEE;
+}
+
+.search-btn:hover {
+  background: #BBBBBB;
+  transition: 0.3s;
+}
+
+
+
+
+/* 以下、searchhost.html */
+.active-host-title {
+  font-size: 30px;
+  color: #666666;
+  margin: 50px 0 60px;
+}
+
+.host-profile {
+  width: 600px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.host-item {
+  display: flex;
+}
+
+.host-detail {
+  padding: 40px;
+  line-height: 30px;
+}
+
+/* google mapを右横に入れたい */
